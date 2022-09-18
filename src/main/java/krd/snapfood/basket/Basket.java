@@ -2,12 +2,13 @@ package krd.snapfood.basket;
 
 import krd.snapfood.address.Address;
 import krd.snapfood.base.BaseEntity;
+import krd.snapfood.basketitem.BasketItem;
+import krd.snapfood.supplier.Supplier;
 import lombok.Data;
 import org.hibernate.envers.Audited;
-import javax.persistence.Entity;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.Table;
+
+import javax.persistence.*;
+import java.util.List;
 
 @Data
 @Audited
@@ -25,5 +26,12 @@ public class Basket extends BaseEntity {
     private Address address;
 
 
+    @ManyToOne
+    @JoinColumn(name = "supplier")
+    private Supplier supplier;
+
+
+    @OneToMany(mappedBy = "basket",fetch = FetchType.LAZY,cascade = CascadeType.ALL)
+    private List<BasketItem> basketItem;
 
 }

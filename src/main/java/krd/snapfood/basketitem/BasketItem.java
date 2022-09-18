@@ -1,6 +1,7 @@
 package krd.snapfood.basketitem;
 
 import krd.snapfood.base.BaseEntity;
+import krd.snapfood.basket.Basket;
 import krd.snapfood.suppliercategory.SupplierCategory;
 import lombok.Data;
 import org.hibernate.envers.Audited;
@@ -24,4 +25,7 @@ public class BasketItem extends BaseEntity {
     @JoinColumn(name = "supplier_category")
     private SupplierCategory supplierCategory;
 
+    @ManyToOne
+    @JoinColumn(name = "basketItem")
+    private Basket basket;
 }
