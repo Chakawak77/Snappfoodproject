@@ -1,6 +1,8 @@
 package krd.snapfood.category;
 
 
+import java.util.List;
+
 public interface CategoryService {
 
     Category save(Category category);
@@ -8,4 +10,5 @@ public interface CategoryService {
     void delete(Long id);
     Category getById(Long id);
 
+    List<Category> findAll();
  }

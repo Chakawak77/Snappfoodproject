@@ -11,7 +11,7 @@ public interface SupplierRepository extends PagingAndSortingRepository<Supplier,
 
 
 
-    List<Supplier> findAllByCategory_Id(Long category_Id);
+    List<Supplier> findAllByCategory_Id(Long categoryId);
 
 
 }

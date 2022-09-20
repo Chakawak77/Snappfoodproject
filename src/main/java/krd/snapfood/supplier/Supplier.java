@@ -3,6 +3,7 @@ package krd.snapfood.supplier;
 import krd.snapfood.base.BaseEntity;
 import krd.snapfood.basket.Basket;
 import krd.snapfood.category.Category;
+import krd.snapfood.food.Food;
 import krd.snapfood.suppliercategory.SupplierCategory;
 import lombok.Data;
 import org.geolatte.geom.G2D;
@@ -30,6 +31,9 @@ public class Supplier extends BaseEntity {
     @ManyToOne
     @JoinColumn(name = "category")
     private Category category;
+
+    @OneToMany(mappedBy = "supplier",fetch =FetchType.LAZY,cascade =CascadeType.ALL)
+    private List<Food> foods;
 
     @OneToMany(mappedBy = "supplier",fetch = FetchType.LAZY,cascade = CascadeType.ALL)
     private List<SupplierCategory> supplierCategories;

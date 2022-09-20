@@ -13,7 +13,7 @@ public interface SupplierService {
 
     Supplier getById(Long id);
 
-    List<Supplier> getAllByCategory_Id(Long id);
+    List<Supplier> getAllByCategory_Id(Long categoryId);
 
 
 

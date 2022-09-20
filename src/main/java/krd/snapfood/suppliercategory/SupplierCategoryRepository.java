@@ -9,5 +9,5 @@ import java.util.List;
 @Repository
 public interface SupplierCategoryRepository extends PagingAndSortingRepository<SupplierCategory,Long> {
 
-    List<SupplierCategory> findAllBySupplier_Id(Long supplier_Id);
+    List<SupplierCategory> findAllBySupplier_Id(Long supplierId);
 }

@@ -16,7 +16,7 @@ import javax.persistence.Table;
 @Table(name="tbl_basket_item")
 public class BasketItem extends BaseEntity {
 
-    private Long foodId;
+    private String title;
     private Double price;
     private String icon;
     private Long count;
