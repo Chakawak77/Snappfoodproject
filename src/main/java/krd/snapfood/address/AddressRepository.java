@@ -9,7 +9,7 @@ import java.util.List;
 @Repository
 public interface AddressRepository extends PagingAndSortingRepository<Address,Long> {
 
-    List<Address>   findAllByUserApp_Id(Long user_Id);
+    List<Address>   findAllByUserApp_Id(Long userId);
 
     //List<Address> findAllByUserApp(UserApp userApp);
 

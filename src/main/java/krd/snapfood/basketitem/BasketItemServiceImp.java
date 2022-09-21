@@ -4,6 +4,8 @@ package krd.snapfood.basketitem;
 import krd.snapfood.basket.BasketRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -42,5 +44,15 @@ public class BasketItemServiceImp implements BasketItemService {
             throw  new RuntimeException("Not Found");
 
         return optionalBasketItem.get();
+    }
+
+    @Override
+    public List<BasketItem> findAllByBasket_Id(Long basketId) {
+        return null;
+    }
+
+    @Override
+    public List<BasketItem> findAllBySupplierCategory_Id(Long supplierCategoryId) {
+        return null;
     }
 }
