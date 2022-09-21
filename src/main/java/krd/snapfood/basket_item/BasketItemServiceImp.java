@@ -1,7 +1,6 @@
-package krd.snapfood.basketitem;
+package krd.snapfood.basket_item;
 
 
-import krd.snapfood.basket.BasketRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

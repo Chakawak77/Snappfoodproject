@@ -1,8 +1,8 @@
-package krd.snapfood.basketitem;
+package krd.snapfood.basket_item;
 
 import io.swagger.annotations.ApiModelProperty;
 import krd.snapfood.base.BaseDTO;
-import krd.snapfood.suppliercategory.SupplierCategory;
+import krd.snapfood.supplier_category.SupplierCategory;
 import lombok.Data;
 
 @Data

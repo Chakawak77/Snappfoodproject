@@ -1,4 +1,4 @@
-package krd.snapfood.basketitem;
+package krd.snapfood.basket_item;
 
 
 import org.springframework.data.repository.PagingAndSortingRepository;

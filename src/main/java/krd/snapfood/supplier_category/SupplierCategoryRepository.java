@@ -1,4 +1,4 @@
-package krd.snapfood.suppliercategory;
+package krd.snapfood.supplier_category;
 
 
 import org.springframework.data.repository.PagingAndSortingRepository;

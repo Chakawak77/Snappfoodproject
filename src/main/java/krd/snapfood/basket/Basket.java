@@ -2,7 +2,7 @@ package krd.snapfood.basket;
 
 import krd.snapfood.address.Address;
 import krd.snapfood.base.BaseEntity;
-import krd.snapfood.basketitem.BasketItem;
+import krd.snapfood.basket_item.BasketItem;
 import krd.snapfood.supplier.Supplier;
 import lombok.Data;
 import org.hibernate.envers.Audited;

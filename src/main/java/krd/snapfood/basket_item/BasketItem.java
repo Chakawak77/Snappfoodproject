@@ -1,8 +1,8 @@
-package krd.snapfood.basketitem;
+package krd.snapfood.basket_item;
 
 import krd.snapfood.base.BaseEntity;
 import krd.snapfood.basket.Basket;
-import krd.snapfood.suppliercategory.SupplierCategory;
+import krd.snapfood.supplier_category.SupplierCategory;
 import lombok.Data;
 import org.hibernate.envers.Audited;
 import javax.persistence.Entity;

@@ -1,4 +1,4 @@
-package krd.snapfood.suppliercategory;
+package krd.snapfood.supplier_category;
 
 import io.swagger.annotations.ApiModelProperty;
 import krd.snapfood.base.BaseDTO;

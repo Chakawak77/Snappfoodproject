@@ -4,7 +4,7 @@ import krd.snapfood.base.BaseEntity;
 import krd.snapfood.basket.Basket;
 import krd.snapfood.category.Category;
 import krd.snapfood.food.Food;
-import krd.snapfood.suppliercategory.SupplierCategory;
+import krd.snapfood.supplier_category.SupplierCategory;
 import lombok.Data;
 import org.geolatte.geom.G2D;
 import org.geolatte.geom.Point;

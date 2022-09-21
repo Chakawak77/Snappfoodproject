@@ -1,7 +1,4 @@
-package krd.snapfood.suppliercategory;
-
-import krd.snapfood.basketitem.BasketItem;
-import krd.snapfood.supplier.Supplier;
+package krd.snapfood.supplier_category;
 
 import java.util.List;
 

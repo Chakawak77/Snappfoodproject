@@ -1,7 +1,5 @@
-package krd.snapfood.basketitem;
+package krd.snapfood.basket_item;
 
-
-import krd.snapfood.basket.Basket;
 
 import java.util.List;
 

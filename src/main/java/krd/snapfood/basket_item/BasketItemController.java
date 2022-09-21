@@ -1,4 +1,4 @@
-package krd.snapfood.basketitem;
+package krd.snapfood.basket_item;
 
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;

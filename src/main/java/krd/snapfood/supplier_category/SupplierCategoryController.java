@@ -1,4 +1,4 @@
-package krd.snapfood.suppliercategory;
+package krd.snapfood.supplier_category;
 
 public class SupplierCategoryController {
 }
