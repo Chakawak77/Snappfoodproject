@@ -24,14 +24,14 @@ public class SupplierController {
     private final BasketMapper basketMapper;
 
 
-    @PostMapping
+    @PostMapping("/save/supplier")
     public ResponseEntity<Void> save(@RequestBody SupplierDTO supplierDTO) {
         Supplier supplier= mapper.toSupplier(supplierDTO);
         service.save(supplier);
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
-    @PutMapping
+    @PutMapping("/update/supplier")
     public ResponseEntity<SupplierDTO> update(@RequestBody SupplierDTO supplierDTO) {
         Supplier supplier= mapper.toSupplier(supplierDTO);
        SupplierDTO saveUpdate = mapper.toSupplierDTO(service.update(supplier));
